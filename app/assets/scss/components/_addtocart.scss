@@ -1,0 +1,18 @@
+.addtocart {
+
+ color: $color-dark;
+ background-color: $color-white;
+ border: 2px solid $color-dark;
+ font-size: 1.167rem;
+ font-weight: bold;
+ text-transform: uppercase;
+ -webkit-transition: background-color 200ms linear;
+ -ms-transition: background-color 200ms linear;
+ transition: background-color 200ms linear;
+
+ &:hover {
+  color: $color-white;
+  background-color: $color-dark;
+ }
+
+}

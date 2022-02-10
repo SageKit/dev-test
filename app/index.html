@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="assets/css/main.min.css" rel="stylesheet" />
+  <title>Test</title>
+ </head>
+ <body class="site">
+
+  <div class="wrapper">
+
+   <header class="header pt-4">
+    <div class="header__inner container">
+     <div class="row justify-content-xl-center">
+      <div class="col-xl-9 d-flex">
+
+       <!-- Mini Cart Component -->
+       <div class="minicart ms-auto">
+        <button class="minicart__button p-2 d-flex align-items-center d-md-inline"><span class="minicart__icon me-1 me-md-0">My Cart</span> <span class="minicart__count">(4)</span></button>
+        <div class="minicart__content">
+         <ul class="minicart__items">
+          <li class="minicart__item">
+           <div class="row g-0">
+            <div class="col-auto">
+             <figure class="minicart__item--image">
+              <img src="assets/images/classic-tee.jpg" alt="Classic Tea" />
+             </figure>
+            </div>
+            <div class="col">
+             <div class="minicart__item--info ps-3">
+              <h3 class="minicart__item--name mb-2">Classic Tea</h3>
+              <p class="mb-2"><span class="minicart__item--qty">1</span> x <span class="minicart__item--price">$75</span></p>
+              <p class="mb-2"><span class="minicart__item--variation">Size</span> x <span class="minicart__item--variant">S</span></p>
+             </div>
+            </div>
+           </div>
+          </li>
+          <li class="minicart__item">
+           <div class="row g-0">
+            <div class="col-auto">
+             <figure class="minicart__item--image">
+              <img src="assets/images/classic-tee.jpg" alt="Classic Tea" />
+             </figure>
+            </div>
+            <div class="col">
+             <div class="minicart__item--info ps-3">
+              <h3 class="minicart__item--name mb-2">Classic Tea</h3>
+              <p class="mb-2"><span class="minicart__item--qty">1</span> x <span class="minicart__item--price">$75</span></p>
+              <p class="mb-2"><span class="minicart__item--variation">Size</span> x <span class="minicart__item--variant">S</span></p>
+             </div>
+            </div>
+           </div>
+          </li>
+         </ul>
+        </div>
+       </div>
+       
+
+      </div>
+     </div>
+    </div>
+   </header>
+
+   <main class="content py-5">
+    <div class="content__inner container">
+     <div class="row justify-content-xl-center">
+
+      <div class="col-lg-6 col-xl-5">
+        
+       <!-- Gallery Component -->
+       <figure class="gallery mb-5 mb-lg-0">
+        <img src="assets/images/classic-tee.jpg" alt="Classic Tea" class="gallery__image m-auto" />
+       </figure>
+
+      </div>
+
+      <div class="col-lg-6 col-xl-4">
+
+       <!-- Product Component -->
+       <div class="product">
+        <h1 class="product__name mb-4">Classic Tea</h1>
+        <h2 class="product__price mb-4 py-2">$75.00</h3>
+        <div class="product__description mb-5">
+         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu euismod metus. Donec iaculis pretium egestas. Praesent eu nisi vel ipsum elementum dignissim nec eu felis. Proin quis lacus et mi blandit pulvinar ac eget purus. Vestibulum aliquam faucibus odio ut mollis.</p>
+        </div>
+       </div>
+
+       <!-- Cart Component -->
+       <form class="cartform mb-5">
+        
+        <!-- Variation Component -->
+        <div class="variation mb-4">
+         <label class="variation__label mb-2">Size <span class="variation__required">*</span></label>
+         <div class="variation__variants mb-2">
+          <button class="variation__variant">S</button>
+          <button class="variation__variant">M</button>
+          <button class="variation__variant">L</button>
+         </div>
+        </div>
+
+        <!-- Add to Cart Component -->
+        <button class="addtocart px-4 py-2">Add to Cart</button>
+
+       </form>
+
+      </div>
+
+     </div>
+    </div>
+   </main>
+
+  </div>
+
+  <script src="lib/jquery/jquery-3.6.0.min.js"></script>
+  <script src="lib/bootstrap-5.1.3/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/mediaCheck/mediaCheck-min.js"></script>
+  <script src="assets/js/main.js"></script>
+
+ </body>
+</html>

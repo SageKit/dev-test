@@ -1,0 +1,25 @@
+.product {
+
+ &__name {
+  color: $color-dark;
+  font-size: 1.75rem;
+ }
+
+ &__price {
+
+  color: $color-dark;
+  font-size: 1.167rem;
+  font-weight: bold;
+
+  @include media-breakpoint-up(lg) {
+   border-top: 1px solid $color-light;
+   border-bottom: 1px solid $color-light;
+  }
+
+ }
+
+ &__description * {
+  line-height: 1.75;
+ }
+
+}

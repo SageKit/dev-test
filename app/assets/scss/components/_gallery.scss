@@ -1,0 +1,15 @@
+.gallery {
+
+ &__image {
+
+  width: 100%;
+  display: block;
+
+  @include media-breakpoint-up(md) {
+   width: auto;
+   max-width: 400px;
+  }
+
+ }
+
+}

@@ -1,0 +1,39 @@
+.variation {
+
+ &__label {
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+ }
+
+ &__variants {
+
+  > button {
+   &:first-child {
+    margin-left: 0;
+   }
+   &:last-child {
+    margin-left: 0;
+   }
+  }
+
+ }
+
+ &__variant {
+  width: 3.333rem;
+  height: 3.333rem;
+  line-height: 3.083rem;
+  margin: 0 0.083rem;
+  color: $color-grey;
+  border: 1px solid $color-shade;
+  background-color: $color-white;
+  font-size: 0.917rem;
+  text-align: center;
+  display: inline-block;  
+ }
+
+ &__required {
+  color: $color-danger;
+ }
+
+}
